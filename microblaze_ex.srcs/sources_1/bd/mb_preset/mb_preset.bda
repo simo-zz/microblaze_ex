@@ -198,12 +198,12 @@
                 "MX": "/microblaze_0",
                 "MI": "DLMB",
                 "MS": "SEG_dlmb_bram_if_cntlr_Mem",
-                "MV": "xilinx.com:ip:microblaze_riscv:1.0",
+                "MV": "xilinx.com:ip:microblaze:11.0",
                 "SX": "/microblaze_0_local_memory/dlmb_bram_if_cntlr",
                 "SI": "SLMB",
                 "SS": "Mem",
                 "SV": "xilinx.com:ip:lmb_bram_if_cntlr:4.0",
-                "TM": "both",
+                "TM": "data",
                 "TU": "memory"
             },
             "V4": {
@@ -216,12 +216,12 @@
                 "MX": "/microblaze_0",
                 "MI": "ILMB",
                 "MS": "SEG_ilmb_bram_if_cntlr_Mem",
-                "MV": "xilinx.com:ip:microblaze_riscv:1.0",
+                "MV": "xilinx.com:ip:microblaze:11.0",
                 "SX": "/microblaze_0_local_memory/ilmb_bram_if_cntlr",
                 "SI": "SLMB",
                 "SS": "Mem",
                 "SV": "xilinx.com:ip:lmb_bram_if_cntlr:4.0",
-                "TM": "both",
+                "TM": "instruction",
                 "TU": "memory"
             },
             "V5": {
@@ -234,12 +234,12 @@
                 "MX": "/microblaze_0",
                 "MI": "M_AXI_DP",
                 "MS": "SEG_axi_uartlite_0_Reg",
-                "MV": "xilinx.com:ip:microblaze_riscv:1.0",
+                "MV": "xilinx.com:ip:microblaze:11.0",
                 "SX": "/axi_uartlite_0",
                 "SI": "S_AXI",
                 "SS": "Reg",
                 "SV": "xilinx.com:ip:axi_uartlite:2.0",
-                "TM": "both",
+                "TM": "data",
                 "TU": "register"
             },
             "V6": {
@@ -252,13 +252,13 @@
                 "MX": "/microblaze_0",
                 "MI": "M_AXI_DP",
                 "MS": "SEG_microblaze_0_axi_intc_Reg",
-                "MV": "xilinx.com:ip:microblaze_riscv:1.0",
+                "MV": "xilinx.com:ip:microblaze:11.0",
                 "SX": "/microblaze_0_axi_intc",
                 "SI": "s_axi",
                 "MM": "S_AXI",
                 "SS": "Reg",
                 "SV": "xilinx.com:ip:axi_intc:4.1",
-                "TM": "both",
+                "TM": "data",
                 "TU": "register"
             }
         },

@@ -173,8 +173,8 @@ create_clock -period 100.000 -name sys_clk_pin -waveform {0.000 5.000} -add [get
 
 ## Misc. ChipKit Ports
 #set_property -dict { PACKAGE_PIN M17   IOSTANDARD LVCMOS33 } [get_ports { ck_ioa }]; #IO_L10N_T1_D15_14 Sch=ck_ioa
-set_property PACKAGE_PIN C2 [get_ports ARSTN_IN]
-set_property IOSTANDARD LVCMOS33 [get_ports ARSTN_IN]
+set_property PACKAGE_PIN C2 [get_ports RST_IN]
+set_property IOSTANDARD LVCMOS33 [get_ports RST_IN]
 
 ## SMSC Ethernet PHY
 #set_property -dict { PACKAGE_PIN D17   IOSTANDARD LVCMOS33 } [get_ports { eth_col }]; #IO_L16N_T2_A27_15 Sch=eth_col

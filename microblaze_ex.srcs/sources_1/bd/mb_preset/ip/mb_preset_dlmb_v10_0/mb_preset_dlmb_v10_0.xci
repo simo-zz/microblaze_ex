@@ -4,7 +4,7 @@
     "xci_name": "mb_preset_dlmb_v10_0",
     "cell_name": "microblaze_0_local_memory/dlmb_v10",
     "component_reference": "xilinx.com:ip:lmb_v10:3.0",
-    "ip_revision": "14",
+    "ip_revision": "13",
     "gen_directory": "../../../../../../microblaze_ex.gen/sources_1/bd/mb_preset/ip/mb_preset_dlmb_v10_0",
     "parameters": {
       "component_parameters": {
@@ -27,7 +27,6 @@
         "BASE_BOARD_PART": [ { "value": "digilentinc.com:arty-a7-100:part0:1.1" } ],
         "BOARD_CONNECTIONS": [ { "value": "" } ],
         "DEVICE": [ { "value": "xc7a100t" } ],
-        "NEXTGEN_VERSAL": [ { "value": "0" } ],
         "PACKAGE": [ { "value": "csg324" } ],
         "PREFHDL": [ { "value": "VERILOG" } ],
         "SILICON_REVISION": [ { "value": "" } ],
@@ -38,12 +37,12 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Integrator" } ],
-        "IPREVISION": [ { "value": "14" } ],
+        "IPREVISION": [ { "value": "13" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "../../../../../../microblaze_ex.gen/sources_1/bd/mb_preset/ip/mb_preset_dlmb_v10_0" } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "../../ipshared" } ],
-        "SWVERSION": [ { "value": "2024.1" } ],
+        "SWVERSION": [ { "value": "2023.2" } ],
         "SYNTHESISFLOW": [ { "value": "OUT_OF_CONTEXT" } ]
       }
     },
